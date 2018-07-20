@@ -13,6 +13,27 @@
 	background-color: rgba(0, 102, 102,.7);
 }
 
+.nav-row {
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+	font-size: 25px;
+	display: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 40px;
+	background-color: rgb(102, 204, 255);
+}
+
+.nav-row a{
+	color: white;
+}
+.space{
+	border: none;
+	background-color: rgba(255,255,255,.0) !important;
+}
+
 .logo  {
 	display: inline-block;
 	color: white;
@@ -25,6 +46,7 @@
 }
 .search-btn{
 	display: inline;float:right;margin-right: 50px;
+
 }
 .social a , .search-btn a {
 	display: block;
@@ -44,6 +66,16 @@
 .hamburger-menu{
 	display: none;
 	float:left;
+}
+
+.hamburger-icon{
+	color: white;
+	border : 1px solid white;
+  padding: 10px;
+}
+
+.hamburger-icon:hover {
+	background-color: rgb(0, 102, 102);
 }
 
 .navigation {
@@ -76,12 +108,62 @@
 	background-color : rgb(102, 204, 255);
 	width:100%;
 }
+
+#hamburger-btn-close:hover{
+background-color: rgb(102, 204, 255);
+}
+
+.nav-row a:hover{
+	color: black;
+}
+
+.hide{
+	position: absolute;
+	padding-top: 5%;
+	background-color:  rgba(0, 102, 102);
+  width:0%;
+   overflow:hidden;
+    white-space:nowrap;
+    display:inline-block;
+}
+.show {
+	box-shadow: 0 5px 5px -5px #333;
+	-webkit-transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;  
+    width:100%;
+	display: block;
+}
+.hide-anm{
+		box-shadow: 0 5px 5px -5px #333;
+	-webkit-transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;  
+	  width: 0%;
+	  display: block;
+}
+@media screen and (min-width: 780px){
+	.show {
+		display: none;
+	}
+}
 @media screen and (max-width: 780px){
 	.header-top{
 		display: none;
 	}
 	.navigation{
 		display: none;
+	}
+	.search-btn{
+		padding-top:5px;
+		color: white;
+	  border : 1px solid white;
+	  text-align: center;
+	}
+	.nav-row{
+	display: block;
 	}
 	.logo{
 		display: flex;
@@ -93,10 +175,13 @@
 		display: inline;
 	}
 	.search-btn{
-		margin-top: 30px;
-		pading-right: 5%;
+		margin-top: 35px;
+		padding: 0;
 	}
 	.header-bottom {
 		padding-top: 30px;
 	}
 }
+
+
+

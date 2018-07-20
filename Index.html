@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="Assets/css/aside.css">
 	<link rel="stylesheet" type="text/css" href="Assets/css/header.css">
 	<link rel="stylesheet" type="text/css" href="Assets/css/main.css">
+	<script type="text/javascript" src="Assets/script.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -20,21 +21,32 @@
 					<a href="#" class="fa fa-instagram"></a>
 				</div>
 			</div>
+			<div id="hide" class='hide'>
+				<a href="#" id="hamburger-btn-close" style="margin-left:5%;"onclick="hamburger()" class="fa fa-bars hamburger-icon"></a>		
+				<div class="nav-row"><a href="#">Home</a></div>
+				<div class="nav-row"><a href="#">About</a></div>
+				<div class="nav-row"><a href="#">Blogs</a></div>
+				<div class="nav-row"><a href="#">Articles</a></div>
+				<div class="nav-row space"></div>
+			</div>
 			<div class="header-bottom">
-				<div class="hamburger-menu">
-					<a href="#" style="color: white;border : 1px solid white; padding: 10px;" class="fa fa-bars"></a>				
+				<div>
+					<div class="hamburger-menu">
+						<a href="#" id="hamburger-btn-open" onclick="hamburger()" class="fa fa-bars hamburger-icon"></a>		
+					</div>
+					<div class="nav-row space"></div>
 				</div>
-				<div class="toggle"></div>
 				<div class="logo">Blog BSA</div>
-			 <div class="navigation">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Blogs</a>
-              <a href="#">Articles</a>
-          </div>
+				<div class="navigation">
+					<a href="#">Home</a>
+					<a href="#">About</a>
+					<a href="#">Blogs</a>
+					<a href="#">Articles</a>
+				</div>
 			</div>
 		</header>
-		<main></main>
+		<main>
+		</main>
 		<aside></aside>
 		<footer></footer>
 	</div>
