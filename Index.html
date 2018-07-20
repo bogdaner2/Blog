@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="Assets/css/header.css">
 	<link rel="stylesheet" type="text/css" href="Assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="Assets/css/footer.css">
+	<link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -22,20 +23,20 @@
 				</div>
 			</div>
 		</li>
-			<div class="header-bottom">
-				<div class="hamburger-menu">
-					<div style="position:absolute; z-index: 3; margin-left: 10%" class="fa fa-bars hamburger-icon"></div>
-								<input type="checkbox" id="CheckBox" style="position:absolute; margin-left:10%; z-index: 3; opacity: 0; height: 30px;width: 30px;">
-					 <label for="CheckBox" class="hide">
-						 	<div id="hide">
-				<div class="nav-row"><a href="#">Home</a></div>
-				<div class="nav-row"><a href="#">About</a></div>
-				<div class="nav-row"><a href="#">Blogs</a></div>
-				<div class="nav-row"><a href="#">Articles</a></div>
-				<div class="nav-row space"></div>
-			</div>
+		<div class="header-bottom">
+			<div class="hamburger-menu">
+				<div style="position:absolute; z-index: 3; margin-left: 10%" class="fa fa-bars hamburger-icon"></div>
+				<input type="checkbox" id="CheckBox" style="position:absolute; margin-left:10%; z-index: 3; opacity: 0; height: 30px;width: 30px;">
+				<label for="CheckBox" class="hide">
+					<div id="hide">
+						<div class="nav-row"><a href="#">Home</a></div>
+						<div class="nav-row"><a href="#">About</a></div>
+						<div class="nav-row"><a href="#">Blogs</a></div>
+						<div class="nav-row"><a href="#">Articles</a></div>
+						<div class="nav-row space"></div>
+					</div>
 				</div>
-					<div class="nav-row space"></div>
+				<div class="nav-row space"></div>
 				<div class="logo">Blog BSA</div>
 				<div class="navigation">
 					<a href="#">Home</a>
@@ -46,23 +47,60 @@
 				<hr>
 			</div>
 		</header>
-			  <dir class="grid-container">
-	  	<div class="grid-main shadow">
-	  		Main содержит список статей в виде карточек с краткой информацией (фото, заголовок, время, краткое описание, рейтинг, кол-во комментариев). Количество карточек в одном ряду не фиксировано, зависит от свободного пространства. Но ширина карточек должна быть относительно резиновая, т.е. в пределах каких-то минимальных/максимальных размеров, но не жестко фиксированная.
-
-Крайние карточки слева и справа должны прижиматься к левому и правому краям контейнера соответственно. Расстояние между карточками должно быть статическим.
-
-При наведении на карточку необходимо, чтобы у фото был эффект приближения (зумирования).
-	  	</div>
+		<dir class="grid-container">
 			<div class="grid-aside shadow">
 				Aside содержит следующие блоки, расположенные друг за другом:
-блок информации о авторе (фото, имя, краткое описание).
-блок социальных иконок.
-блок subscribe (имя, email, кнопка на всю ширину).
-блок поиска на всю ширину (поле поиска и прижатая к нему справа кнопка поиска с иконкой).
-блок тегов (теги следуют слева-направо и сверху-вниз, контент тегов по центру).
-блок последних комментариев в две колонки, колонка слева - круглое фото пользователя; колонка справа - имя, а ниже имени комментарий в одну строку. Если комментарий не помещается, то он должен обрезаться и заканчиваться тремя точками.
-При недостаточной ширине для main и aside, aside должен находиться уже ниже main.
+				блок информации о авторе (фото, имя, краткое описание).
+				блок социальных иконок.
+				блок subscribe (имя, email, кнопка на всю ширину).
+				блок поиска на всю ширину (поле поиска и прижатая к нему справа кнопка поиска с иконкой).
+				блок тегов (теги следуют слева-направо и сверху-вниз, контент тегов по центру).
+				блок последних комментариев в две колонки, колонка слева - круглое фото пользователя; колонка справа - имя, а ниже имени комментарий в одну строку. Если комментарий не помещается, то он должен обрезаться и заканчиваться тремя точками.
+				При недостаточной ширине для main и aside, aside должен находиться уже ниже main.
+			</div>
+			<div class="grid-main shadow">
+				<div class="Grid">
+					<div class="Grid-cell">
+						<div class="card-img">
+							<img src="luke-michael-27050-unsplash.jpg" height="100%" width="100%" style="margin: 0;">
+						</div>
+						<div class="card-content">
+							<div class="card-logo">Healthy food</div>
+							<hr>
+							<span>Healthy diet is the chief source of person's well-being</span>
+						</div>
+					</div>
+					<div class="Grid-cell">
+						<div class="card-img">
+							<img src="eaters-collective-132773-unsplash.jpg" height="100%" width="100%" style="margin: 0;">
+						</div>
+						<div class="card-content">
+							<div class="card-logo">You are what you eat</div>
+							<hr>
+							<span>Nutritionists recommend consuming vitamins and minerals to enhance the immune system</span>
+						</div>
+					</div>
+					<div class="Grid-cell">
+						<div class="card-img">
+							<img src="thomas-tucker-391058-unsplash.jpg" height="100%" width="100%" style="margin: 0;">
+						</div>
+						<div class="card-content">
+							<div class="card-logo">You are what you eat</div>
+							<hr>
+							<span>Nutritionists recommend consuming vitamins and minerals to enhance the immune system</span>
+						</div>
+					</div>
+					<div class="Grid-cell">
+						<div class="card-img">
+							<img src="cel-lisboa-60315-unsplash.jpg" height="100%" width="100%" style="margin: 0;">
+						</div>
+						<div class="card-content">
+							<div class="card-logo">You are what you eat</div>
+							<hr>
+							<span>Nutritionists recommend consuming vitamins and minerals to enhance the immune system</span>
+						</div>
+					</div>
+				</div>
 			</div>
 		</dir>
 		<footer> <hr/>Konorin Bohdan BSA 2018 </footer>
