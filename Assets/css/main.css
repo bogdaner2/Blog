@@ -13,7 +13,7 @@
 }
 
 .grid-aside{
-		padding: 30px;
+  text-align: center;
 	grid-column-start: 3;
 	  grid-row-start: 2;
 	 background-color: White;
@@ -44,6 +44,10 @@
   padding: 10px;
 }
 
+.card-extra{
+  margin-bottom: 10px;
+}
+
 .card-logo{
   color: white;
   font-size: 40px;
@@ -55,12 +59,10 @@
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
-/* On mouse-over, add a deeper shadow */
 .Grid-cell:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-/* Add some padding inside the card container */
 
 @media screen and (max-width: 780px){
 	.grid-container{

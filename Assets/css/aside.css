@@ -1,3 +1,73 @@
 .autor-info{
-	
+
+}
+
+.grid-aside strong{
+	font-size: 40px;
+}
+
+.grid-aside{
+	grid-column-start: 3;
+	  grid-row-start: 2;
+	 background-color: White;
+}
+
+.author-info{
+	  text-align: center;
+	  	font-size: 25px;
+}
+
+.author-social div{
+	display: inline-block;
+	padding: 10px;
+}
+
+#avatar {
+    background-image: url(../../skhx7_croper_ru.jpeg);
+    margin-left: 25%;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    padding:1px;
+    border:1px solid #021a40;
+    background-position: center;
+    border-radius: 50%;
+}
+
+////
+
+.container-subscribe {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit] {
+    background-color: rgb(102, 204, 255);
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 780px){
+	#avatar {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
