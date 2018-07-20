@@ -9,7 +9,7 @@
 	grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
- background-color: White;
+  background-color: White;
 }
 
 .Grid {
@@ -28,7 +28,7 @@
   border-radius: 5px;
   overflow: hidden;
   color: white;
-   background-color:rgb(102, 204, 255)
+  background-color:rgb(102, 204, 255)
 }
 .card-content{
   font-size: 20px;
@@ -47,12 +47,12 @@
 }
 
 .card-img > img:hover{
--webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 .Grid-cell:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 
@@ -61,15 +61,15 @@
 		margin-top: 15%;
 	}
 	.grid-main{
-					grid-column-start: 1;
-			grid-column-end: 4;
-	}
+   grid-column-start: 1;
+   grid-column-end: 4;
+ }
 
-	.grid-aside{
-			grid-column-start: 1;
-			grid-column-end: 4;
-		  grid-row-start: 3;
-	}
+ .grid-aside{
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 3;
+ }
 }
 
 
