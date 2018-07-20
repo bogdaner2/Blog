@@ -1,3 +1,7 @@
+: root{
+	--maincolor : var(--maincolor);
+} 
+
 .header {
 	height: 100px;
 	margin-bottom: 50px;
@@ -101,12 +105,12 @@
 
 .header-bottom{
 	height: auto;
-	background-color : rgb(102, 204, 255);
+	background-color : var(--maincolor);
 	width:100%;
 }
 
 #hamburger-btn-close:hover{
-background-color: rgb(102, 204, 255);
+background-color: var(--maincolor);
 }
 
 .nav-row a:hover{
@@ -124,7 +128,7 @@ background-color: rgb(102, 204, 255);
     -moz-transition: width 0.3s ease-in-out;
     -o-transition: width 0.3s ease-in-out;
     transition: width 0.3s ease-in-out;  
-    	background-color: rgb(102, 204, 255);
+    	background-color: var(--maincolor);
     	z-index: 1;
 }
 

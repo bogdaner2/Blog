@@ -12,14 +12,6 @@
  background-color: White;
 }
 
-.grid-aside{
-  text-align: center;
-	grid-column-start: 3;
-	  grid-row-start: 2;
-	 background-color: White;
-}
-
-
 .Grid {
   display: flex;
   flex-flow: row; 
